@@ -49,7 +49,6 @@ class CreateTaskViewModel @Inject constructor(
                         when (result) {
                             is TaskResult.Success -> {
                                 setEffect { CreateTaskEffect.TaskCreated }
-                                setEffect { CreateTaskEffect.NavigateBack }
                             }
                             is TaskResult.Error -> setEffect { CreateTaskEffect.ShowErrorToast(result.message) }
                         }
