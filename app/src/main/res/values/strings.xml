@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">planner-test-task</string>
+    <string name="back">Back</string>
+    <string name="error_loading_task">Error loading task</string>
+    <string name="task_start_end_time">Start: %1$s - End: %2$s</string>
+
+    <string name="task_name_label">Task Name</string>
+    <string name="task_description_label">Task Description</string>
+    <string name="name_error">Name must be from 3 to 22 characters</string>
+    <string name="description_error">Description must be from 5 to 40 characters</string>
+    <string name="time_label">Time</string>
+    <string name="create_task_button">Create Task</string>
+    <string name="task_created_success">Task created successfully</string>
+    <string name="task_creation_error">Error creating task</string>
+    <string name="select_date">Select Date</string>
+
+    <string name="no_tasks_message">No tasks for selected date</string>
+    <string name="task_start_time">Start: %1$s</string>
+    <string name="task_end_time">End: %1$s</string>
+    <string name="task_click_error">Error opening task</string>
+
+
+
+
+</resources>
