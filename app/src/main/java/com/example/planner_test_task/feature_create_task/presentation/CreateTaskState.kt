@@ -13,7 +13,7 @@ data class CreateTaskState(
 {
     val isFormValid: Boolean
         get() = name.length in 3..22 &&
-                description.length in 5..40 &&
+                description.length in 5..80 &&
                 selectedDate != 0L &&
                 startTime.isNotEmpty() &&
                 endTime.isNotEmpty()

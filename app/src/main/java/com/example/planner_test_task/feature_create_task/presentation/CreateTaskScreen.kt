@@ -88,7 +88,7 @@ class CreateTaskScreen : BaseScreen<CreateTaskViewModel, CreateTaskEvent, Create
                     .padding(horizontal = 8.dp)
             )
 
-            if (state.description.length !in 5..40) {
+            if (state.description.length !in 5..80) {
                 Text(
                     stringResource(R.string.description_error),
                     color = MaterialTheme.colorScheme.error,

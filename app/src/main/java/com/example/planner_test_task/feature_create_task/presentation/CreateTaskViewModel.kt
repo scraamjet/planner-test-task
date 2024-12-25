@@ -47,9 +47,7 @@ class CreateTaskViewModel @Inject constructor(
                 if (isTimeAvailable) {
                     createTaskUseCase.createTask(newTask).collect { result ->
                         when (result) {
-                            is TaskResult.Success -> {
-                                setEffect { CreateTaskEffect.TaskCreated }
-                            }
+                            is TaskResult.Success -> setEffect { CreateTaskEffect.TaskCreated }
                             is TaskResult.Error -> setEffect { CreateTaskEffect.ShowErrorToast(result.message) }
                         }
                     }
