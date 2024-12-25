@@ -20,7 +20,7 @@ Tasks are represented in JSON format:
   "dateStart": "147600000",
   "dateFinish": "147610000",
   "name": "My task",
-  "description": "Описание моего дела"
+  "description": "Description"
 }
 ```
 **Note:** `date_start` and `date_finish` are timestamps.
