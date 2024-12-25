@@ -23,7 +23,7 @@ Tasks are represented in JSON format:
   "description": "Description"
 }
 ```
-**Note:** `date_start` and `date_finish` are timestamps.
+**Note:** `dateStart` and `dateFinish` are timestamps.
 
 ### Task Details Screen
 - Displays detailed information about a task, including:
